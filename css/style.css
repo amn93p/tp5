@@ -1,0 +1,266 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Montserrat", sans-serif;
+}
+
+body {
+	animation: fadeIn ease 2s;
+	animation-fill-mode: forwards;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.726);
+}
+
+#container {
+	width: 100%;
+	height: auto;
+}
+
+nav {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.452);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 80px;
+}
+
+nav span {
+	color: #6e6b6b;
+}
+
+button {
+	background-color: #1c5f81;
+	color: white;
+	padding: 10px;
+	width: 10%;
+	border-style: none;
+}
+
+button i {
+	float: left;
+	margin-left: 18px;
+	transform: rotate(-45deg);
+}
+
+.bg {
+	background-image: url("/img/dinosaure.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	background-size: 100%;
+	width: 100%;
+	height: 850px;
+	display: flex;
+	justify-content: center;
+}
+
+.bg img {
+	margin-top: 70px;
+	height: 90%;
+}
+
+a:hover {
+	color: #7b8e97;
+	transition: 0.5s;
+}
+
+button:hover {
+	color: #7b8e97;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.bg img {
+	padding: 40px;
+	text-shadow: 1px 1px black;
+	color: white;
+}
+
+br {
+	user-select: none;
+}
+
+#section {
+	text-align: center;
+	height: 1000px;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+#section h2 {
+	color: #292929;
+	padding-top: 50px;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+#section img {
+	padding-top: 18px;
+}
+
+#section p {
+	padding-top: 20px;
+}
+
+#section h3 {
+	padding-top: 50px;
+	font-size: 30px;
+}
+
+#section button {
+	margin-top: 35px;
+}
+
+#section2 {
+	height: 500px;
+	position: absolute;
+	top: 2150px;
+	margin-top: 130px;
+	width: 100%;
+}
+
+#section2 h4 {
+	font-size: 32px;
+	padding-bottom: 20px;
+	color: #292933;
+	letter-spacing: 5px;
+	font-weight: 600;
+}
+
+#section2 #div1 {
+	margin-left: 20%;
+}
+
+#section2 button {
+	width: 13%;
+}
+
+#section2 #div2 {
+	margin-left: 60%;
+	margin-top: -16%;
+}
+
+#div2 p img {
+	width: 20px;
+	height: 20px;
+}
+
+#div2 p {
+	width: 60%;
+}
+
+#div2 iframe {
+	padding-top: 24px;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#section2 #div3 {
+	margin-left: 20%;
+	margin-top: -13%;
+}
+
+#section2 i {
+	padding-right: 10px;
+}
+
+.line {
+	color: #8888885d;
+	font-size: 30px;
+}
+
+.partenaires {
+	margin-top: 10%;
+	display: block;
+	text-align: center;
+}
+
+.partenaires h5 {
+	padding-bottom: 40px;
+	font-size: 50px;
+	color: #292929;
+	font-weight: 800;
+	letter-spacing: 3px;
+}
+
+.partenaires img {
+	display: inline-block;
+	margin: auto;
+	margin-right: 12%;
+	height: 35px;
+}
+
+#partenaires_img {
+	margin-left: 10%;
+	padding-bottom: 5%;
+}
+
+footer {
+	background-color: #000000;
+	color: white;
+	padding: 20px;
+	position: relative;
+	top: 1300px;
+}
+
+.footer-content {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-text p {
+	margin: 5px;
+}
+
+footer p:hover {
+	color: #7b8e97;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.footer-image img {
+	max-height: 200px;
+	width: auto;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+img {
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
