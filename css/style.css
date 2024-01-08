@@ -59,28 +59,36 @@ button i {
 	height: 850px;
 	display: flex;
 	justify-content: center;
+	position: relative;
+
 }
 
 .bg img {
 	margin-top: 70px;
 	height: 90%;
+	padding: 40px;
 }
 
 a:hover {
 	color: #7b8e97;
+	text-shadow: 2px 2px 2px rgb(155, 146, 146);
 	transition: 0.5s;
+}
+
+.climatise {
+    position: absolute;
+    bottom: -40px;
+    right: -40px;
+    max-width: 40%;
+    max-height: 40%;
+
 }
 
 button:hover {
 	color: #7b8e97;
+	text-shadow: 2px 2px 2px rgb(155, 146, 146);
 	transition: 0.5s;
 	cursor: pointer;
-}
-
-.bg img {
-	padding: 40px;
-	text-shadow: 1px 1px black;
-	color: white;
 }
 
 br {
@@ -233,6 +241,7 @@ footer p:hover {
 	color: #7b8e97;
 	transition: 0.5s;
 	cursor: pointer;
+	text-shadow: 2px 2px 2px rgb(155, 146, 146);
 }
 
 .footer-image img {
@@ -267,9 +276,9 @@ img {
 
 footer img:hover {
 	filter: contrast(150%) saturate(150%) hue-rotate(30deg);
-  transition: filter 0.5s ease-in-out;
+	transition: filter 0.5s ease-in-out;
 }
 
 .footer img:hover {
 	filter: contrast(150%) saturate(150%) hue-rotate(30deg);
-  }
+}
