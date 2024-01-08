@@ -264,3 +264,12 @@ img {
 	-webkit-user-select: none;
 	-ms-user-select: none;
 }
+
+footer img:hover {
+	filter: contrast(150%) saturate(150%) hue-rotate(30deg);
+  transition: filter 0.5s ease-in-out;
+}
+
+.footer img:hover {
+	filter: contrast(150%) saturate(150%) hue-rotate(30deg);
+  }
